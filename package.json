@@ -1,6 +1,15 @@
 {
   "name": "fast-cache-key",
   "type": "module",
+  "version": "1.0.0",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.js",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    }
+  },
   "license": "MIT",
   "homepage": "https://github.com/LiamMartens/fast-cache-key",
   "files": ["lib"],
